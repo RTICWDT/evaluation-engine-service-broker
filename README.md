@@ -1,13 +1,13 @@
 The Evaluation Engine project is made up of four repositories:
 
 **Evaluation Engine Web UI:**
-<repo url here>
+https://github.com/RTICWDT/evaluation-engine-website
 
 **Evaluation Engine Service Broker:**
-<repo url here>
+https://github.com/RTICWDT/evaluation-engine-service-broker
 
 **Evaluation Engine Console Application:**
-<repo url here>
+https://github.com/RTICWDT/evaluation-engine-console
 
 **Evaluation Engine Statistical Component:**
 <repo url here>
@@ -34,3 +34,5 @@ Finally, the Statistical Component is where the actual calculations occur. It is
 	* SMTP email info in mailSettings
 
 * This application will need to be installed as a Windows service after being built. You will need to install it in two locations, one where the console application is installed, so it can be called for hashing student IDs and one for sending email alerts.
+
+* use the scripts in message-queue-setup to set up the message queue in the WebRServerMessages database
