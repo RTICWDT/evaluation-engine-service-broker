@@ -126,7 +126,7 @@ Please visit {0} to see the full error message.</value>
     <value>Evaluation Engine - Report Status</value>
   </data>
   <data name="ReportCompletedSuccessfullyBody" xml:space="preserve">
-    <value>The report you request has been completed.  
+    <value>The report you requested has been completed.  
 
 Please visit {0} to view your report.</value>
   </data>

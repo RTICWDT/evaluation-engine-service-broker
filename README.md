@@ -10,7 +10,7 @@ https://github.com/RTICWDT/evaluation-engine-service-broker
 https://github.com/RTICWDT/evaluation-engine-console
 
 **Evaluation Engine Statistical Component:**
-<repo url here>
+https://bitbucket.org/benthestatistician/evaluation-engine-stats
 
 The Evaluation Engine Web UI project is the front end website for running reports. It communicates with it's own SQL Server database for controlling user accounts, hashed password histories and display options. This is included in this repo via SQL Source Control, in the 'Database' folder. There is also another database included in this project, in the 'WebRServerMessages' folder, where student IDs are uploaded to run reports and where results are written to by the statistical component to later be retrieved by the website. The data warehouse, where the student data (with student IDs replaced by study IDs) exist is included in the folder DataWarehouse. Finally, there is a Postgres database called 'Crosswalk' which maps hashed student IDs to study IDs.
 
